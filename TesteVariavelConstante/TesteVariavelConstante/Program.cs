@@ -19,7 +19,7 @@ namespace TesteVariavelConstante
 
             if(teste == false)
             {
-                Console.WriteLine("O argumento informado não é um número inteiro");
+                Console.WriteLine("O argumento informado não é um número inteiro" + argumentos[0]);
                 return;
             }
 
