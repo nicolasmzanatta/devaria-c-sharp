@@ -23,7 +23,7 @@ namespace Calculadora
             float primeiroNumero;
 
             bool isPrimeiroNumeroValido = float.TryParse(primeiroNumeroString, out primeiroNumero);
-            if(!isPrimeiroNumeroValido)
+            if(!isPrimeiroNumeroValido) //em vez de colocar == false, usou o ! (negaçao)
             {
                 Console.WriteLine("Primeiro número inválido");
                 return;

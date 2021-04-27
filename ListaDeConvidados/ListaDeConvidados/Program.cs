@@ -11,7 +11,7 @@ namespace ListaDeConvidados
 
             if(string.IsNullOrEmpty(nome) || string.IsNullOrWhiteSpace(nome))
             {
-                Console.WriteLine("Nome não informado para seguir com o programa");
+                Console.WriteLine("Nome não é válido para seguir com o programa");
                 return; //serve para parar o programa por aqui, pq se a pessoa nao informou o nome, nao tem pq seguir...
             }
 
@@ -23,7 +23,7 @@ namespace ListaDeConvidados
 
             if(idadeInformada == false)
             {
-                Console.WriteLine("Idade não informada para seguir com o programa");
+                Console.WriteLine("Idade não é válida para seguir com o programa");
                 return;
             }
 
