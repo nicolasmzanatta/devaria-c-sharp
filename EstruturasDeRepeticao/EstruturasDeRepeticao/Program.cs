@@ -19,7 +19,7 @@ namespace EstruturasDeRepeticao
 
             //while
             var argumentosLidos = 0;
-            while(argumentosLidos < argumentos.Length)
+            while(argumentosLidos < argumentos.Length) 
             {
                 Console.WriteLine($"Estrutura while, argumentosLidos e valor lido: {argumentosLidos}, {argumentos[argumentosLidos]}");
                 argumentosLidos++;
