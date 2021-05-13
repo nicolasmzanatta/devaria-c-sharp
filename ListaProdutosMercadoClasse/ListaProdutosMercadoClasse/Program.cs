@@ -16,9 +16,9 @@ namespace ListaProdutosMercadoClasse
 
         Caso estejam, avisar o usuário quais produtos estão disponíveis -ok
         
-        e quais não estão e, por último,
+        e quais não estão -ok
 
-        exibir a lista de produtos disponíveis ordenados por ordem alfabética do mercado, para que o usuário possa pedir na próxima vez.
+        e por ultimo, exibir a lista de produtos disponíveis ordenados por ordem alfabética do mercado, para que o usuário possa pedir na próxima vez. -ok
 
 
         */
